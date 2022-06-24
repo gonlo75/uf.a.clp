@@ -48,7 +48,7 @@ def uf_hoy(op):
     return uf_mas_dia
 
 
-monto = float(input("Ingrese el monto en UF a calcular en $ CLP:"))
+monto = float(input("Ingrese el monto en UF con separación de coma para decimales a calcular en $ CLP:"))
 opcion = input("Quiere calcular el monto con la UF de hoy? (si/no):")
 ufdi = uf_hoy(opcion)
 uf = ufdi[0:9]
